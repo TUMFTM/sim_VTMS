@@ -1,0 +1,14 @@
+Place the Coolprop Open-Source Framework here.
+This is needed to obtain the fluid properties of the VTMS.
+
+Tested Coolprop Version: 6.1
+
+
+Refer to: http://www.coolprop.org/coolprop/wrappers/MATLAB/index.html#matlab for further information.
+
+
+Thank you to the main developers of Coolprop:
+
+- Ian Bell, Bell Thermal Consultants
+- Jorrit Wronski, IPU Refrigeration and Energy Technology, Kgs. Lyngby, Denmark
+- Sylvain Quoilin, Vincent Lemort, Thermodynamics Laboratory, University of Liege, Liege, Belgium
