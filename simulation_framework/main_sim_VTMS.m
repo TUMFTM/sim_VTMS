@@ -39,23 +39,23 @@ addpath 01_vehicles 02_driving_cycles 03_VTMS_architectures 04_simulation_result
 
 veh_class_1 = 0;         % Subcompact:                          Renault Twizy
 veh_class_2 = 1;         % Compact:                             BMW i3
-veh_class_3 = 0;         % Lower middle classe:                 Volkswagen eGolf
-veh_class_4 = 0;         % upper middle class/upper class:      Tesla Model 3
+veh_class_3 = 1;         % Lower middle classe:                 Volkswagen eGolf
+veh_class_4 = 1;         % upper middle class/upper class:      Tesla Model 3
 
 
 % Select load cycle. This implies a specfic vehicle speed trajectory and/or
 % a charging current.
 
-sim_load_cycle_1   = 0;
+sim_load_cycle_1   = 1;
 load_cycle_1_name  = 'WLTP';
 
-sim_load_cycle_2   = 0;
-load_cycle_2_name  = 'ConstDriving';
+sim_load_cycle_2   = 1;
+load_cycle_2_name  = 'CADCMotorway';
 
 sim_load_cycle_3   = 0;
 load_cycle_3_name  = 'FastCharging';
 
-sim_load_cycle_4   = 0;
+sim_load_cycle_4   = 1;
 load_cycle_4_name  = 'a_max';
 
 sim_load_cycle_5   = 1;
@@ -67,34 +67,34 @@ load_cycle_5_name  = 'MotorwayFastCharge';
 sim_VTMS_type_1 = 1;
 VTMS_type_1_name = 'VTMS1';
 
-sim_VTMS_type_2 = 0;
+sim_VTMS_type_2 = 1;
 VTMS_type_2_name = 'VTMS2';
 
-sim_VTMS_type_3 = 0;
+sim_VTMS_type_3 = 1;
 VTMS_type_3_name = 'VTMS3';
 
-sim_VTMS_type_4 = 0;
+sim_VTMS_type_4 = 1;
 VTMS_type_4_name = 'VTMS4';
 
-sim_VTMS_type_5 = 0;
+sim_VTMS_type_5 = 1;
 VTMS_type_5_name = 'VTMS5';
 
-sim_VTMS_type_6 = 0;
+sim_VTMS_type_6 = 1;
 VTMS_type_6_name = 'VTMS6';
 
-sim_VTMS_type_7 = 0;
+sim_VTMS_type_7 = 1;
 VTMS_type_7_name = 'VTMS7';
 
 
 % Select one or more ambient temperatures (in K!) at which the simulation will be carried out.
 
-T_ambient = 273;%253.15 : 10 : 313.15;   % -20°C to 40°C in 10°C steps
+T_ambient = 253.15 : 10 : 313.15;   % -20°C to 40°C in 10°C steps
 
 
 
 %% Some more definitions
 
-SoC_Bat_init = 0.5;             % Initial battery state-of-charge (Range: 0-1)
+SoC_Bat_init = 0.4;             % Initial battery state-of-charge (Range: 0-1)
 
 P_charge = 150;                 % Charging power in kW
 

@@ -41,7 +41,7 @@ Parameter.i_Getriebe = 9.665;                                       % total tran
 load('Efficiency_map_EM_BMW_i3.mat');                               % efficiency map of electric machine
 Parameter.eta_EMaschine_Break_M = KennfeldMaschine.M;               % influence on electric machine efficiency from torque in Nm
 Parameter.eta_EMaschine_Break_n = KennfeldMaschine.n;               % influence on electric machine efficiency from rpm in 1/min
-Parameter.eta_EMaschine_Table = KennfeldMaschine.etages;            % breakpoints for torque and rpm efficiencies
+Parameter.eta_EMaschine_Table = KennfeldMaschine.etages;            % breakpoints for torque and rpm efficienci42es
 Parameter.eta_EMaschine_Volllast = 0.96;                            % power factor of electric machine
 Parameter.m_EMaschine = 55;                                         % mass of electric machine in kg
 Parameter.m_Getriebe = 22.5;                                        % mass of transmission in kg
