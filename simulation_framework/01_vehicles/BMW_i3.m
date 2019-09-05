@@ -19,7 +19,7 @@ Parameter.name  =  'BMWi3';                                         % Vehicle na
 % Vehicle
 
 Parameter.r_dynamisch = 0.3498;                                     % dynamic wheel radius in m
-Parameter.rho_Luft = 1.2;                                           % air density in kg/m^3 (-> value used: standard conditions for 20°C)
+Parameter.rho_Luft = 1.2;                                           % air density in kg/m^3 (-> value used: standard conditions for 20ï¿½C)
 Parameter.A_Stirn = 2.38;                                           % vehicle front surface in m^2
 Parameter.c_W = 0.29;                                               % drag coefficient
 Parameter.m_Fahrzeug = 1320;                                        % vehicle mass in kg
