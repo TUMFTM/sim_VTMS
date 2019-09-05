@@ -88,7 +88,7 @@ VTMS_type_7_name = 'VTMS7';
 
 % Select one or more ambient temperatures (in K!) at which the simulation will be carried out.
 
-T_ambient = 253.15 : 10 : 313.15;   % -20°C to 40°C in 10°C steps
+T_ambient = 253.15 : 10 : 313.15;   % -20ï¿½C to 40ï¿½C in 10ï¿½C steps
 
 
 
@@ -244,7 +244,7 @@ for ii = 1:sim_index                % Iterate through the configs. NOTE: Change 
         Output{ii}=fun_sim_VTMS_type_7(Simulation{ii}.vehicle, Simulation{ii}.load_cycle, Simulation{ii}.charging_info, Simulation{ii}.P_charge, Simulation{ii}.Fluid, Simulation{ii}.T_ambient, Simulation{ii}.T_init, Simulation{ii}.VTMS_name);
     end
     
-    Temp = Simulation{ii}.T_ambient - 273.15;    % K --> °C
+    Temp = Simulation{ii}.T_ambient - 273.15;    % K --> ï¿½C
     filename = [char(date), '_', Simulation{ii}.vehicle_name, '_',Simulation{ii}.load_cycle_name, '_',Simulation{ii}.VTMS_name, '_', num2str(Temp), '_Celsius'];
     Output{ii}.Output.vehicle_name = Simulation{ii}.vehicle_name;
     Output{ii}.Output.load_cycle_name = Simulation{ii}.load_cycle_name;
@@ -252,6 +252,8 @@ for ii = 1:sim_index                % Iterate through the configs. NOTE: Change 
     Output{ii}.Output.T_ambient = Simulation{ii}.T_ambient;
      
     parsave(filename, Output{ii}, '\04_simulation_results');      % Save simulation results.
+    
+    close all   % Close system architecture overview plots
 
     fprintf('Simulation %i of %i completed.', ii, sim_index);
 end

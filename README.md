@@ -93,12 +93,15 @@ This is possible the hardest part of adapting the model. The framework used the 
 
 There are already seven different VTMS architectures defined in the framework right now in *03_VTMS_architectures*. They are shown below as an example and are a good start if you want to adapt the architectures to your own needs. General VTMS definitons are found in the file *general_VTMS_parameters.m*.
 
-The architectures already defined get more and more complex, so we will use them to explain the logic behind the architecture definitions.
+The architectures already defined get more and more complex, so we will use them to explain the logic behind the architecture definitions. 
+
+All pictures below are from the thesis *Konzeptentwicklung, Auslegung und Bewertung von Thermomanagementsystemen für elektrische Antriebsstränge* by [Felix Näher](felix.naeher@web.de).
 
 
 #### VTMS Type 1
 
-![Structure of VTMS Type 1](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 1](/pics/VTMS_type_1.png)
+
 File: *fun_sim_VTMS_type_1.m*
 
 Code for definition: 
@@ -116,7 +119,8 @@ Note that the **battery** (=*Battery*) doesn't show up in this definition becaus
 
 #### VTMS Type 2
 
-![Structure of VTMS Type 2](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 2](/pics/VTMS_type_2.png)
+
 File: *fun_sim_VTMS_type_2.m*
 
 Code for definition: 
@@ -129,7 +133,8 @@ Like VTMS Type 1, but now the battery system (=*Batteriepack*) is included and `
 
 #### VTMS Type 3
 
-![Structure of VTMS Type 3](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 3](/pics/VTMS_type_3.png)
+
 File: *fun_sim_VTMS_type_3.m*
 
 Code for definition: 
@@ -146,7 +151,8 @@ Now it starts to get complicated. Now we have a high and a low temperature loop.
 
 #### VTMS Type 4
 
-![Structure of VTMS Type 4](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 4](/pics/VTMS_type_4.png)
+
 File: *fun_sim_VTMS_type_4.m*
 
 Code for definition: 
@@ -163,7 +169,8 @@ Like VTMS Type 3 but with an additional phase change material (PCM) heat buffer 
 
 #### VTMS Type 5
 
-![Structure of VTMS Type 5](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 5](/pics/VTMS_type_5.png)
+
 File: *fun_sim_VTMS_type_5.m*
 
 Code for definition: 
@@ -181,7 +188,8 @@ Also based on VTMS Type 3 but now the two coolant loops are thermally connected 
 
 #### VTMS Type 6
 
-![Structure of VTMS Type 6](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 6](/pics/VTMS_type_6.png)
+
 File: *fun_sim_VTMS_type_6.m*
 
 Code for definition: 
@@ -200,7 +208,8 @@ Code for definition:
 
 #### VTMS Type 7
 
-![Structure of VTMS Type 7](http://via.placeholder.com/640x360)
+![Structure of VTMS Type 7](/pics/VTMS_type_7.png)
+
 File: *fun_sim_VTMS_type_7.m*
 
 Code for definition: 
