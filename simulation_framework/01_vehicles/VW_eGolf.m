@@ -106,7 +106,7 @@ Parameter.UA_c_Fluid_Table = ([4.25;8.5]*1.55);                     % Heat trans
 % UA battery system
 
 Parameter.UA_Batteriepack_Umgebung_Table = ([1;270]*1.66);          % Heat transfer capacity of the battery system to the ambient temperature subject to the vehicle speed in W/K
-Parameter.UA_Batteriepack_Fluid_Table = ([15;30]*1.66*10);          % Heat transfer capacity of the electric machine to the coolant subject to the volume flow inside the coolant cycles in W/K
+Parameter.UA_Batteriepack_Fluid_Table = ([25;45]*1.66*10);          % Heat transfer capacity of the electric machine to the coolant subject to the volume flow inside the coolant cycles in W/K
 
 
 % UA charger
