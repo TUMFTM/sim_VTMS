@@ -14,7 +14,9 @@ The VTMS simulation is coupled with a longitudinal vehicle simulation and a simu
 
 Further information about the modelling approach and the validation of the model can be found in the following publication:
 
-Reiter Et al.: _Design of Thermal Management Systems for Battery Electric Vehicles_. In: _2019 Fourteenth International Conference on Ecological Vehicles and Re-newable Energies (EVER)_. Monaco. IEEE. 2019. **forthcoming**
+Reiter, Christoph; Dirnecker, Johannes; Lienkamp, Markus (2019): **Efficient Simulation of Thermal Management Systems for BEV**. In: 2019 Fourteenth International Conference on Ecological Vehicles and Renewable Energies (EVER). Monte-Carlo, Monaco, 08.05.2019 - 10.05.2019. IEEE: IEEE, S. 1–8.
+
+DOI: [10.1109/EVER.2019.8813683](https://doi.org/10.1109/EVER.2019.8813683)
 
 
 ## Features
@@ -253,3 +255,4 @@ The most complex structure. Now we have three coolant loops and two heat exchang
 	- Development and implementation of the different VTMS architectures as part of his term project
  - Christian Schötz
 	- Initial development of the thermal component models as part of his master's thesis
+
